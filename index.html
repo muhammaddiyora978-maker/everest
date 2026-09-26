@@ -4,54 +4,698 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
+    <title>nft nexus</title>
+    
 </head>
+<style>
+    .nav1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+        background-color: black;
+    }
+
+    nav .ul1 {
+        display: flex;
+        list-style: none;
+        gap: 50px;
+
+    }
+
+    nav a {
+        color: white;
+    }
+
+    .toom1 {
+        background-image: url(./image\ 1.svg);
+        min-height: 100vh;
+        background-size: cover;
+    }
+
+    .headline {
+        color: white;
+        margin-top: 200px;
+
+    }
+
+    .panda-box h1 {
+        font-size: 80px;
+    }
+
+    .login {
+        width: 260px;
+        height: 70px;
+        margin-left: 1500px;
+        margin-top: 50px;
+        background-color: orange;
+        border-radius: 20px;
+
+    }
+
+    .register {
+        width: 260px;
+        height: 70px;
+        margin-left: 1500px;
+        background-color: aqua;
+        border-radius: 20px;
+
+    }
+
+    .nom {
+        color: white;
+        margin-left: 200px;
+    }
+
+    .logos {
+        background-color: #7ffa8a;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header {
+        background-color: #0a0a0a;
+    }
+
+    .asosiy {
+        color: white;
+        margin-left: 200px;
+    }
+
+    .asosiy2 {
+        color: white;
+        margin-left: 200px;
+    }
+
+    .head {
+        color: white;
+        margin-left: 200px;
+    }
+
+    .nft1 {
+        border: 1px solid white;
+        width: 360px;
+        height: 264px;
+        text-align: center;
+        background-color: orange;
+    }
+
+    .nft2 {
+        border: 1px solid white;
+        width: 360px;
+        height: 264px;
+        text-align: center;
+        background-color: purple;
+    }
+
+    .lure {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .nft3 {
+        border: 1px solid white;
+        width: 360px;
+        height: 264px;
+        text-align: center;
+        background-color: purple;
+    }
+
+    .nft4 {
+        border: 1px solid white;
+        width: 360px;
+        height: 264px;
+        text-align: center;
+        background-color: purple;
+    }
+
+    .nft5 {
+        border: 1px solid white;
+        width: 360px;
+        height: 264px;
+        text-align: center;
+        background-color: purple;
+    }
+
+    .nft6 {
+        border: 1px solid white;
+        width: 360px;
+        height: 264px;
+        text-align: center;
+        background-color: purple;
+    }
+
+    .lure2 {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .secure {
+        color: white;
+        margin-left: 300px;
+    }
+
+    .moon {
+        background-color: #0a0a0a;
+    }
+
+    .notification {
+        color: white;
+        margin-left: 300px;
+    }
+
+    .information {
+        color: white;
+        margin-left: 1200px;
+    }
+
+    .main {
+        background-color: #0a0a0a;
+
+    }
+
+    .photo1 {
+        border: 1px solid white;
+        width: 360px;
+        height: 500px;
+        text-align: center;
+
+    }
+
+    .a {
+        color: white;
+    }
+
+    .name {
+        color: white;
+    }
+
+    .photo2 {
+        border: 1px solid white;
+        width: 360px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .tme {
+        color: white;
+    }
+
+    .name2 {
+        color: white;
+    }
+
+    .com {
+        color: white;
+    }
+
+    .photo3 {
+        border: 1px solid white;
+        width: 360px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .name3 {
+        color: white;
+    }
+
+    .photos1 {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .photo4 {
+        border: 1px solid white;
+        width: 360px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .rest {
+        color: white;
+    }
+
+    .name4 {
+        color: white;
+    }
+
+    .photo5 {
+        border: 1px solid white;
+        width: 360px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .you {
+        color: white;
+    }
+
+    .name5 {
+        color: white;
+    }
+
+    .photo6 {
+        border: 1px solid white;
+        width: 360px;
+        height: 500px;
+        text-align: center;
+    }
+
+    .you2 {
+        color: white;
+    }
+
+    .name6 {
+        color: white;
+    }
+
+    .photos2 {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .res {
+
+        margin-left: 100px;
+    }
+
+    .true {
+        background-color: white;
+    }
+
+    .set {
+
+        margin-left: 100px;
+    }
+
+    .card-nexus {
+        width: 360px;
+        height: 264px;
+        background-color: #5224B5;
+
+    }
+
+    .steps img {
+        width: 320px;
+
+    }
+
+    .steps {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .steps span {
+        color: aquamarine;
+    }
+
+    .card-main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardus {
+        position: relative;
+        top: 50px;
+    }
+
+    .card3us {
+        position: relative;
+        top: 130px;
+    }
+
+    .card4us {
+        position: relative;
+        top: 130px;
+    }
+
+    .card5us {
+        position: relative;
+        bottom: 40px;
+    }
+
+    .false {
+        background-color: #0a0a0a;
+        background-image: url(./image\ 8.svg);
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .input1 {
+        width: 300px;
+        height: 50px;
+
+        margin-left: 775px;
+    }
+
+    .button1 {
+        width: 100px;
+        height: 50px;
+        background-color: orange;
+    }
+
+    .h2 {
+        color: white;
+
+
+    }
+
+    .ritm {
+        background-color: #5224B5;
+    }
+
+    .nav2 {
+        display: flex;
+        justify-content: space-around;
+    }
+    .ul2{
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
 
 <body>
-    <header>
+    <header class="toom1">
 
-        <a class="logo" href="">Cars</a>
-
-        <nav>
-
-            <ul>
-                <li><a href="" style="--i:1">home</a></li>
-                <li><a href="" style="--i:2">about</a></li>
-                <li><a href="" style="--i:3">review</a></li>
-                <li><a href="" style="--i:4">Featured</a></li>
-                <li><a href="" style="--i:5">contact</a></li>
+        <nav class="nav1">
+            <img src="./Group 41.svg" alt="">
+            <ul class="ul1">
+                <li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Download</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Explore</a></li>
+                </li>
+                <img src="./Search.svg" alt="">
+                <img src="./Buy.svg" alt="">
             </ul>
-
         </nav>
-
-        <div class="social-media">
-            <li><a href=""></a><i class='bx bxl-twitter'></i></li>
-            <li><a href=""></a><i class='bx bxl-facebook'></i></li>
-            <li><a href=""></a><i class='bx bxl-instagram'></i></li>
+        <div class="panda-box">
+            <h1 class="headline">Discover <br> THE World of NFT <br> with NFTNEXUS</h1>
         </div>
-
-
+        <div class="buttonlar">
+            <button class="login">Login</button><br><br>
+            <button class="register">Register</button>
+        </div>
+        <h1 class="nom">Unlock the Power of Digital Collectibles with <br> Our Revolutionary Platform</h1>
     </header>
-    <section class="home"><br><br>
-        <div class="home-content">
-            <h1>Car dealing experience</h1>
-            <h3>Redefined!</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti labore nemo sequi, voluptate sit sint
-                libero illum, quas asperiores laudantium fuga tempore, velit consequatur amet temporibus modi ducimus id
-                natus!</p>
-            <a href="#" class="btn">Explore cars</a>
-        </div>
 
-        <div class="home-img">
-            <div class="rhombus">
-                <img width="400px" class="" src="./awr.png" alt="">
+
+    <section class="logos">
+        <img src="./Group 45.svg" alt="">
+
+        <img src="./1280px-Tether_Logo.svg" alt="">
+
+        <img src="./25-250900_ethereum-transparent-logo-clipart-removebg-preview (1).svg" alt="">
+    </section>
+    <header class="toom">
+        <h1 class="asosiy">Are you ready to join <br> the NFT revolution?</h1><br>
+        <h3 class="asosiy2">NFT Nexus is here to help you explore the exciting <br> world of Non-Fungible Tokens and
+            unlock
+            their full <br> potential.<br><br>Our platform provides you with a safe and secure <br> environment to buy,
+            sell, and trade unique digital <br> assets like never before.<br><br>With our user-friendly interface, you
+            can
+            discover <br> and own one-of-a-kind digital collectibles with <br> ease. Join us today and start your NFT
+            journey!</h3>
+        <h1 class="head">Why NFT Nexus?</h1>
+        <div class="lure">
+            <div class="nft1"><br>
+                <img src="./Shield Done (1).svg" alt="">
+                <h3>Safe and secure <br>platform for NFT <br> transactions</h3>
+            </div>
+            <Div class="nft2"><br>
+                <img src="./Scan.svg" alt="">
+                <h3>Wide selection of <br> unique digital <br> collectibles</h3>
+
+            </Div>
+            <div class="nft3"><br>
+                <img src="./Profile.svg" alt="">
+                <h3>User-friendly <br> interface for easy <br> navigation</h3>
+
+            </div>
+        </div><br><br>
+        <div class="lure2">
+            <div class="nft4"><br>
+                <img src="./Call (1).svg" alt="">
+                <h3>24/7 customer support <br> to assist you with any <br> questions</h3>
+            </div>
+            <div class="nft5"><br>
+                <img src="./Unlock.svg" alt="">
+                <h3>Access to the latest NFT <br> market trends and <br> insights</h3>
+            </div>
+            <div class="nft6">
+                <img src="./Document.svg" alt="">
+                <h3>Regular newsletters with <br> the latest NFT news and <br> analysis</h3>
+            </div>
+
+
+        </div>
+    </header>
+    <section class="moon">
+        <h1 class="secure">Discover the Best Rare NFTs <br> on NFT Nexus</h1><br><br>
+        <h2 class="notification">Find the Most Unique <br> and Valuable Digital <br> Collectibles in the <br> World"
+        </h2>
+        <h2 class="information">At NFT Nexus, we are dedicated to <br> bringing you the best and rarest <br> NFTs in the
+            world. Our platform <br> showcases a wide selection of one <br>-of-a-kind digital collectibles that <br> are
+            sure to impress even the most <br> discerning of collectors. From rare <br> digital art to collectible
+            virtual
+            <br> items, you'll find it all here. Take a <br> look at some of our top picks and <br> find your next
+            must-have
+            NFT.
+        </h2>
+
+    </section>
+    <section class="main">
+        <div class="xs">
+            <img src="./Frame 3.svg" alt="">
+            <img src="./Frame 4.svg" alt="">
+            <img src="./Frame 5.svg" alt="">
+            <img src="./Frame 6.svg" alt="">
+            <img src="./Frame 7.svg" alt="">
+
+
+
+        </div><br><br>
+        <div class="photos1">
+            <div class="photo1">
+                <img src="./Mask group (5).svg" alt="">
+                <h2 class="a">Panda Grenade</h2><br>
+                <img src="./Group 33.svg" alt=""><br>
+                <img src="./Ellipse 2.svg" alt="">
+                <h3 class="name">Jacob Jones</h3>
+
+            </div>
+            <div class="photo2">
+                <img src="./Mask group (6).svg" alt="">
+                <h2 class="tme">Panda Gun</h2><br>
+                <img src="./Group 33.svg" alt=""><br>
+                <img src="./Ellipse 3.svg" alt="">
+                <h3 class="name2">Leslie Alexander</h3>
+
+            </div>
+            <div class="photo3">
+                <img src="./Mask group (7).svg" alt="">
+                <h2 class="com">Panda Sniper</h2><br>
+                <img src="./Group 33.svg" alt=""><br>
+                <img src="./Ellipse 4.svg" alt="">
+                <h3 class="name3">Arlene McCoy</h3>
+            </div>
+        </div><br>
+        <div class="photos2">
+            <div class="photo4">
+                <img src="./Mask group (8).svg" alt="">
+                <h2 class="rest">Panda Arrow</h2><br>
+                <img src="./Group 33.svg" alt=""><br>
+                <img src="./Ellipse 6.svg" alt="">
+                <h3 class="name4">Ralph Edwards</h3>
+
+            </div>
+            <div class="photo5">
+                <img src="./Mask group (9).svg" alt="">
+                <h2 class="you">Panda Spear</h2><br>
+                <img src="./Group 33.svg" alt=""><br>
+                <img src="./Ellipse 5.svg" alt="">
+                <h3 class="name5">Jane Cooper</h3>
+            </div>
+            <div class="photo6">
+                <img src="./Mask group (10).svg" alt="">
+                <h2 class="you2">Panda Bazooka</h2><br>
+                <img src="./Group 33.svg" alt=""><br>
+                <img src="./Ellipse 7.svg" alt="">
+                <h3 class="name6">Courtney Henry</h3>
             </div>
         </div>
-        <div class="rhombus2">
+    </section>
+    <section class="true">
+        <h1 class="res">How to Upload Your Art as an <br> NFT on NFT Nexus</h1><br><br>
+        <h2 class="set">Bring your artwork to life as a Non-Fungible Token on [Brand Name] <br>. Our platform makes it
+            easy
+            for artists and collectors alike to upload <br> and sell their unique digital creations.<br><br><br> Follow
+            these simple steps to get started:</h2>
+        <div class="card-main">
+            <div class="card1">
+
+                <div class="steps">
+                    <span class="a1">Step 1</span>
+                    <img src="./image-removebg-preview (6) (3) copy.png" alt="">
+                </div>
+
+                <div class="card-nexus">
+                    <img src="./Shield Done (1).svg" alt="">
+                    <p>Create an account on <br> NFT Nexus</p>
+                </div>
+            </div>
+
+            <div class="card1 cardus">
+
+                <div class="steps">
+                    <span class="a1">Step 2</span>
+                    <img src="./image-removebg-preview (6) (3) copy.png" alt="">
+                </div>
+
+                <div class="card-nexus">
+                    <img src="./Shield Done (1).svg" alt="">
+                    <p>Click on the "Upload Art" <br> button from the main <br> menu</p>
+                </div>
+            </div>
+
+            <div class="card3us">
+
+                <div class="steps">
+                    <span class="a1">Step 3</span>
+
+                </div>
+
+                <div class="card-nexus">
+                    <img src="./Shield Done (1).svg" alt="">
+                    <p>Create an account on <br> NFT Nexus</p>
+                </div>
+                <img src="./Line 2 (4).svg" alt="">
+
+            </div><br>
+        </div>
+
+        <div class="card-main card4us">
+
+            <div class="card1">
+
+                <div class="steps">
+                    <span class="a1">Step 4</span>
+                    <img src="./image-removebg-preview (7) (3).png" alt="">
+                </div>
+
+                <div class="card-nexus">
+                    <img src="./Shield Done (1).svg" alt="">
+                    <p>Create an account on <br> NFT Nexus</p>
+                </div>
+            </div>
+
+            <div class="card5us">
+
+                <div class="steps">
+                    <span class="a1">Step 5</span>
+                    <img src="./image-removebg-preview (7) (3).png" alt="">
+                </div>
+
+                <div class="card-nexus">
+                    <img src="./Shield Done (1).svg" alt="">
+                    <p>Create an account on <br> NFT Nexus</p>
+                </div>
+            </div>
+
+            <div class="card6us">
+
+                <div class="steps">
+                    <span class="a1">Step 6</span>
+
+                </div>
+
+
+
+                <div class="card-nexus">
+                    <img src="./Shield Done (1).svg" alt="">
+                    <p>Create an account on <br> NFT Nexus</p>
+                </div>
+
+            </div>
+
+        </div><br><br><br><br><br><br>
+        <center><br><br>
+            <h1>Updates on upcoming events and activities related to NFTs</h1>
+        </center>
+
+
+
+
+
+    </section>
+    <section class="false">
+        <div class="pov">
+            <input class="input1" type="text" placeholder="Your e-mail">
+            <button class="button1">Submit</button>
 
         </div>
+
+
+    </section>
+    <section class="ritm">
+        <nav class="nav2">
+            <div>
+                <img src="./Group 41.svg" alt="">
+                <h2 class="h2">3891 Ranchview Dr. <br> Richardson, California <br> 62639</h2>
+            </div>
+            <ul class="ul2">
+                <li>
+                <li>Company</li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">download</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">contact</a></li>
+            <ul>
+
+            <ul class="ul2">
+                </li>
+
+                <li>
+                <li>Services</li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Customers</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Success Stories</a></li>
+                <li><a href="">More</a></li>
+                </li>
+            <ul>
+
+            <ul class="ul2">
+                <li>
+                <li>Support</li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Legal</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Contact</a></li>
+                </li>
+            </ul>
+        </nav>
     </section>
 
+
+
+
+    </div>
+    
+
+
+
 </body>
+
+</html>
